@@ -1,1 +1,2 @@
-GET        /        @controllers.Main.getFile
+GET        /           @controllers.Main.getFile
+GET        /ent        @controllers.Main.getEntity

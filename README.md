@@ -57,3 +57,5 @@ Caused by: java.lang.IllegalArgumentException: requirement failed: contentLength
 
 
 ```
+
+If you visit `/ent` you'll also see a minimal reproduction case without a file: we send an HttpEntity with content length 0 and get the same result.
